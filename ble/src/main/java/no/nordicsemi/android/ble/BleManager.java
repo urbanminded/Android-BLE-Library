@@ -1883,7 +1883,7 @@ public abstract class BleManager implements ILogger {
 	 * The GATT Callback handler. An object of this class must be returned by
 	 * {@link #getGattCallback()}. It is responsible for all GATT operations.
 	 */
-	protected abstract static class BleManagerGattCallback extends BleManagerHandler {
+	public abstract static class BleManagerGattCallback extends BleManagerHandler {
 		// All methods defined in the super class.
 	}
 }
